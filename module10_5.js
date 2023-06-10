@@ -8,9 +8,9 @@ Task_5
 */
 
 
-let arr = [1, 2, 3, 4, 5, 6];
+let arr = ["One", "Two", "Three", "Four", "Five", "Six"];
 
 console.log("Number of elements - " + arr.length);
-for(let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
-};
+arr.forEach(function(item) {
+  console.log(item);
+});
