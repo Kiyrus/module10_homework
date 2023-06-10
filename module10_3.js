@@ -8,7 +8,6 @@ Task_3
 */
 
 let str = prompt("Enter the word:")
-
-let stringRevers = `${str.split('').reverse().join('')}`
+let stringRevers = str.split('').reverse().join('');
 
 console.log(stringRevers);
